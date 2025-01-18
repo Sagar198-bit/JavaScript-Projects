@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <div class="PassWord-box-container">
+        <div class="InnerBoxContainer">
+            <div class="PassWordtextBox">
+                <h2 id="Passwordfieldtext">Password Genrator</h2>
+            </div>
+            <div class="PassWordFieldBox">
+                <p id="PassWordField">
+                    Random Password
+
+                </p>
+                <i id="copybtn" class="fa-regular fa-copy fa-2xl"></i>
+              
+                
+            </div>
+            <div id="PassWordsettngs">
+                <div class="CaseBoxes">
+                    <label for="LengthofPassword">Password length</label>
+                    <input style="color: black;" type="number" name="check" value="6" id="LengthofPassword" min="6"
+                        max="15">
+                </div>
+                <div class="CaseBoxes">
+                    <label for="UpperCase">Include uppercase letters</label>
+                    <input type="checkbox" name="check" class="AllCases" id="UpperCase">
+                </div>
+                <div class="CaseBoxes">
+                    <label for="LowerCase">Include lowercase letters</label>
+                    <input type="checkbox" name="check" class="AllCases" id="LowerCase">
+                </div>
+                <div class="CaseBoxes">
+                    <label for="numbers">Include numbers</label>
+                    <input type="checkbox" name="check" class="AllCases" id="numbers">
+                </div>
+                <div class="CaseBoxes">
+                    <label for="SpecialSymbols">Include symbols</label>
+                    <input type="checkbox" name="check" class="AllCases" id="SpecialSymbols">
+                </div>
+                <div class="CaseBoxes">
+                    <button type="submit" id="btn">Genrate Password</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="./js/index.js"></script>
+</body>
+
+</html>

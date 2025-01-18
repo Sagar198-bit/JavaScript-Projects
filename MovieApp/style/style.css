@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text&family=IBM+Plex+Mono&family=Inconsolata:wght@200..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Merriweather&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Merriweather", serif;
+}
+
+html,
+body {
+    height: 100vh;
+    width: 100vw;
+
+}
+
+.Movies-box-Continer {
+    min-height: 100%;
+    width: 100%;
+    background: #1C0118;
+}
+
+.Movies-Search-Section {
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+
+#SearchBox {
+    width: 30rem;
+    padding: 15px 8px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+}
+
+.Movies-Card-Container {
+    min-height: 100%;
+    width: 100%;
+    padding: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.Movies-Card {
+    height: auto;
+    width: 25rem;
+    position: relative;
+    margin: 20px;
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+.Info-Contaier {
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 0%;
+    visibility: hidden;
+    transition: .5s;
+    overflow: hidden;
+}
+
+p {
+    opacity: 0;
+    margin: 20px;
+}
+
+h2 {
+    opacity: 0;
+    margin: 20px;
+}
+
+.Movies-Card:hover .Info-Contaier {
+    visibility: visible;
+    height: 50%;
+}
+
+p {
+    opacity: 1;
+}
+
+h2 {
+    opacity: 1;
+}

@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "IBM Plex Mono", serif;
+    color: white;
+}
+
+
+
+html,
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #3A3B99;
+}
+
+.PassWord-box-container {
+    height: 450px;
+    width: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.InnerBoxContainer {
+    height: 100%;
+    width: 100%;
+    background: #23235B;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: px;
+    border-radius: 10px;
+}
+
+
+.CaseBoxes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.PassWordFieldBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    flex-direction: column;
+}
+
+#PassWordField {
+    width: 80%;
+    text-align: center;
+    background-color: #151436;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#PassWordsettngs {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.CaseBoxes {
+    height: 50px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+label {
+    font-size: 16px;
+}
+
+
+button {
+    width: 100%;
+    height: 35px;
+    background-color: #3A3B99;
+    outline: none;
+    border: none;
+}
+
+#LengthofPassword {
+    width: 5rem;
+    padding: 5px;
+    border: none;
+    outline: none;
+}
+
+
+
+#PassWordField {
+    font-size: 20px;
+}
+
+#copybtn {
+
+    cursor: pointer;
+    position: relative;
+    bottom: 55%;
+    left: 34%;
+
+}

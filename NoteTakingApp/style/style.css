@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "IBM Plex Mono", serif;
+    font-weight: 800;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    background: #8EB486;
+}
+
+.NotesTakingContainer {
+    min-height: 100vh;
+    width: 100%;
+    background: #8EB486;
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-evenly;
+
+}
+
+.InnnerContainer {
+    height: 400px;
+    width: 400px;
+    background-color: #FDF7F4;
+    margin: 15px;
+}
+
+#tools {
+    background-color: black;
+    text-align: end;
+    padding: 0px 10px;
+
+}
+
+#tools i {
+    color: white;
+    margin: 18px 5px;
+    cursor: pointer;
+}
+
+textarea {
+    height: 100%;
+    width: 100%;
+    resize: none;
+    outline: none;
+    border: none;
+    padding: 10px;
+    font-size: 15px;
+
+}
+
+#AddButton {
+    text-align: end;
+    padding: 20px;
+}
+
+button {
+    padding: 8px 15px;
+    position: relative;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
